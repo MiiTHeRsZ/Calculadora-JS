@@ -6,48 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Calculadora Prova 2</title>
+    <title>Calculator</title>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-
-    <form action="#" id="corpo">
-
-        <div class="visor" id="visor">
-
-            <label for="valores">Valor</label>
-            <input type="text" id="valores" placeholder="0" value="0">
+    <div id="calculator">
+        <div id="display">
 
         </div>
-
-        <div class="teclado" id="teclado">
-
-            <button class="botoes especial" id="limpar">c</button>
-            <button class="botoes especial" id="raiz">r</button>
-            <button class="botoes especial" id="quadrado">q</button>
-            <button class="botoes operacao" id="dividir">/</button>
-            <button class="botoes" id="7">7</button>
-            <button class="botoes" id="8">8</button>
-            <button class="botoes" id="9">9</button>
-            <button class="botoes operacao" id="multiplicar">x</button>
-            <button class="botoes" id="4">4</button>
-            <button class="botoes" id="5">5</button>
-            <button class="botoes" id="6">6</button>
-            <button class="botoes operacao" id="subtrair">-</button>
-            <button class="botoes" id="1">1</button>
-            <button class="botoes" id="2">2</button>
-            <button class="botoes" id="3">3</button>
-            <button class="botoes operacao" id="somar">+</button>
-            <button class="botoes zero" id="zero">0</button>
-            <button class="botoes" id="decimal">.</button>
-            <button class="botoes operacao" id="enter">=</button>
-
+        <div id="keyboard">
+            <button class="clear">CE</button>
+            <button class="clearAll">C</button>
+            <button>%</button>
+            <button class="operator">/</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">×</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">–</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+            <button>±</button>
+            <button>0</button>
+            <button>,</button>
+            <button class="equal">=</button>
         </div>
-
-
-    </form>
-
+    </div>
 </body>
-<script src="index.js"></script>
 
 </html>
